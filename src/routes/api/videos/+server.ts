@@ -1,6 +1,6 @@
 import * as uuid from "uuid";
 import fs from "fs";
-import { getFileProperties } from "$lib/utils";
+import { getFileProperties } from "$lib/server-utils";
 import type { MetaData } from "$lib/types";
 
 type VideoEncode = {
